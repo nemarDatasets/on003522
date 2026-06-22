@@ -1,28 +1,84 @@
 {
   "version": "2.0",
-  "dataset_id": "on003522",
-  "source": "openneuro",
-  "source_id": "ds003522",
+  "pipeline_stage": "validated",
   "title": "EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Davin Quinn": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003522.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003522",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003522",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuropsychologia.2019.107125",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".cpp",
+    ".def",
+    ".dll",
+    ".docx",
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".mexw32",
+    ".mexw64",
+    ".set",
+    ".sln",
+    ".tsv",
+    ".txt",
+    ".vcproj",
+    ".xlsx",
+    ".xml"
+  ],
+  "description": "This dataset comprises three-stimulus auditory oddball task and resting-state EEG recordings collected from control participants, individuals with sub-acute mild traumatic brain injury (mTBI), and chronic TBI patients. Data were acquired across multiple sessions spanning acute to chronic post-injury phases, with longitudinal follow-up assessments at approximately 2 and 4 months post-injury for acute/sub-acute groups. The dataset includes comprehensive metadata, analysis scripts, and task implementation code to support reproducible neurophysiological investigations of TBI-related alterations in auditory processing and neural function.",
+  "methods_description": "EEG data were collected during a three-stimulus auditory oddball task and resting-state conditions. For control and sub-acute mTBI participants, Session 1 occurred 3-14 days post-injury, Session 2 at approximately 2 months (1.5-3 months), and Session 3 at approximately 4 months (3-5 months) following initial assessment. Chronic TBI participants completed a single session. Data were collected between 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "traumatic brain injury"
+    },
+    {
+      "term": "TBI"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
+  "source_hash": "1a0017d0c32654bd1646ed1baeb67731963129a810f01dbd5854873526770e31"
 }
