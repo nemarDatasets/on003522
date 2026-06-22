@@ -2,18 +2,35 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI",
+  "description": "This dataset comprises three-stimulus auditory oddball task and resting-state EEG recordings collected from control subjects, individuals with sub-acute mild traumatic brain injury (mTBI), and chronic TBI patients. Longitudinal data were acquired at multiple timepoints (3-14 days, ~2 months, and ~4 months post-injury for acute/sub-acute groups), with resting-state recordings also included. The dataset supports investigation of event-related potentials and neural oscillations associated with auditory attention and cognitive processing across the TBI recovery trajectory.",
+  "methods_description": "Three-stimulus auditory oddball task and resting-state EEG recordings were collected from 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center. For control and sub-acute mTBI groups, Session 1 occurred 3-14 days post-injury (with concurrent MRI), Session 2 at approximately 2 months (1.5-3 months), and Session 3 at approximately 4 months (3-5 months) following Session 1. Chronic TBI participants completed a single session. Task parameters and analysis scripts are provided in Matlab format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Davin Quinn": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003522.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "traumatic brain injury"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "longitudinal study"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003522",
       "identifier_type": "URL",
@@ -28,14 +45,19 @@
       "identifier": "10.1016/j.neuropsychologia.2019.107125",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003522.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "27.0 GB (460 files)"
   ],
   "formats": [
     ".cpp",
@@ -56,29 +78,8 @@
     ".txt",
     ".vcproj",
     ".xlsx",
-    ".xml"
+    ".xml",
+    ".yml"
   ],
-  "description": "This dataset comprises three-stimulus auditory oddball task and resting-state EEG recordings collected from control participants, individuals with sub-acute mild traumatic brain injury (mTBI), and chronic TBI patients. Data were acquired across multiple sessions spanning acute to chronic post-injury phases, with longitudinal follow-up assessments at approximately 2 and 4 months post-injury for acute/sub-acute groups. The dataset includes comprehensive metadata, analysis scripts, and task implementation code to support reproducible neurophysiological investigations of TBI-related alterations in auditory processing and neural function.",
-  "methods_description": "EEG data were collected during a three-stimulus auditory oddball task and resting-state conditions. For control and sub-acute mTBI participants, Session 1 occurred 3-14 days post-injury, Session 2 at approximately 2 months (1.5-3 months), and Session 3 at approximately 4 months (3-5 months) following initial assessment. Chronic TBI participants completed a single session. Data were collected between 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "auditory oddball"
-    },
-    {
-      "term": "traumatic brain injury"
-    },
-    {
-      "term": "TBI"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "resting state"
-    }
-  ],
-  "source_hash": "1a0017d0c32654bd1646ed1baeb67731963129a810f01dbd5854873526770e31"
+  "source_hash": "d2871ccee78bb0070b264d356270a46d306fd0d22f7262464457f14448b5da3a"
 }
