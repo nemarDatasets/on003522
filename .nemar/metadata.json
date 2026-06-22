@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003522",
+  "source": "openneuro",
+  "source_id": "ds003522",
+  "title": "EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI",
+  "authors": {
+    "James F Cavanagh": {},
+    "Davin Quinn": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003522.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
