@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI",
-  "description": "This dataset comprises three-stimulus auditory oddball task and resting-state EEG recordings collected from control subjects, individuals with sub-acute mild traumatic brain injury (mTBI), and chronic TBI patients. Longitudinal data were acquired at multiple timepoints (3-14 days, ~2 months, and ~4 months post-injury for acute/sub-acute groups), with resting-state recordings also included. The dataset supports investigation of event-related potentials and neural oscillations associated with auditory attention and cognitive processing across the TBI recovery trajectory.",
-  "methods_description": "Three-stimulus auditory oddball task and resting-state EEG recordings were collected from 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center. For control and sub-acute mTBI groups, Session 1 occurred 3-14 days post-injury (with concurrent MRI), Session 2 at approximately 2 months (1.5-3 months), and Session 3 at approximately 4 months (3-5 months) following Session 1. Chronic TBI participants completed a single session. Task parameters and analysis scripts are provided in Matlab format.",
+  "description": "EEG dataset of a three-stimulus auditory oddball task and resting-state recordings from healthy controls, participants with sub-acute mild traumatic brain injury (mTBI), and participants with chronic TBI. Sub-acute mTBI and control participants were recorded across three sessions spanning roughly four to five months after injury, while chronic TBI participants completed a single session. Analysis scripts and extensive participant metadata are included to support reproduction of the associated published analyses.",
+  "methods_description": "Data were collected in 2016-2018 at the Center for Brain Recovery and Repair, UNM Health Sciences Center. Session 1 took place 3-14 days post-injury (the only session with MRI), Session 2 about 2 months later, and Session 3 about 4 months after Session 1. The auditory oddball task was programmed in Matlab, and resting-state EEG was also recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,17 +27,12 @@
       "term": "resting state"
     },
     {
-      "term": "longitudinal study"
+      "term": "mild traumatic brain injury"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003522",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003522",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -50,6 +45,11 @@
       "identifier": "10.18112/openneuro.ds003522.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003522",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -57,7 +57,7 @@
     "eeg"
   ],
   "sizes": [
-    "27.0 GB (460 files)"
+    "25.19 GB (460 files)"
   ],
   "formats": [
     ".cpp",
